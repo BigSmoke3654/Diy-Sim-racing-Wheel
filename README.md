@@ -12,6 +12,15 @@ rotary encoder
 1x arduino leonardo
 1x incremental rotary encoder
 
+wiring :- 
+Encoder CLK pin :- D2
+Encoder DT pin  :- D3
+Throttle pot    :- A2
+Brake pot       :- A1
+Clutch pot      :- A0
+
+you can branch out the ground and 5v wires to power and ground everything using only 2 pins on the arduino
+
 libraries used :-
 Encoder by Paul Stoffregen
 Joystick by Matthew Heironimus
