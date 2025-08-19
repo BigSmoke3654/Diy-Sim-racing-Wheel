@@ -22,7 +22,7 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_JOYSTICK,
                    false, false, false);       
 
 // --- Config ---
-const int MAX_STEERING_TICKS = 120;  
+const int MAX_STEERING_TICKS = 150;  
 const int NUM_SAMPLES = 40;         
 
 int throttleSamples[NUM_SAMPLES] = {0};
